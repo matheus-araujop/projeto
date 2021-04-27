@@ -24,7 +24,6 @@ nav{
     opacity: 1;
 }
 
-
 .menu{
 
     display: flex;
@@ -38,10 +37,47 @@ nav{
     background: url(/Fotos/Layer_3.png) no-repeat scroll 0.5rem 0.5rem;
     padding-left:2rem;
     font-family: 'Montserrat';
-    font-size: 1rem;
+    font-size: 1.125rem;
     width: 13.5rem;
     height: 2.5rem;
     border: 0.2rem solid #9767A9;
     border-radius: 50rem;
     opacity: 1;
+}
+.main-section{
+
+    height: 100vh;
+    background: url(/Fotos/cabeludo.png) no-repeat center center;
+    position: relative;
+
+}
+
+.tittle{
+
+    position: relative;
+    top: 22.4rem;
+    left: 12rem;
+    width: 33.5rem;
+    height: 14.5rem;
+    text-align: left;
+    font: normal normal 900 6.25rem/6.25rem "Playfair Display";
+    font-weight: 900;
+    font-size: 6.25rem;
+    color: #FFFFFF;
+    opacity: 1;
+
+}
+
+.sub-tittle{
+    
+    position: relative;
+    top: 12rem;
+    left: 63rem;
+    width: 30rem;
+    height: 6rem;
+    font: normal normal 300 2.5rem/3rem 'Montserrat'; 
+    letter-spacing: -1.2px;
+    text-align: left;
+    color: #FFFFFF;
+    opacity: 0.9;
 }
