@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+
+    height: 12vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Montserrat';
+    font-size: 1.125rem;
+    letter-spacing: -0.54px;
+    color: #9767A9;
+    opacity: 1;
+}
+
+
+.menu{
+
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.search-box{
+
+    background: url(/Fotos/Layer_3.png) no-repeat scroll 0.5rem 0.5rem;
+    padding-left:2rem;
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    width: 13.5rem;
+    height: 2.5rem;
+    border: 0.2rem solid #9767A9;
+    border-radius: 50rem;
+    opacity: 1;
+}
