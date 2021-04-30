@@ -12,6 +12,11 @@ header{
     justify-content: space-evenly;
     align-items: center;
 }
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
 
 nav{
     width: 50%;
@@ -22,6 +27,13 @@ nav{
     letter-spacing: -0.54px;
     color: #9767A9;
     opacity: 1;
+}
+
+li:hover{
+
+    font: normal normal 800 1.1rem/1.3rem "Montserrat";
+    color: #9767A9;
+    cursor: pointer;
 }
 
 .menu{
@@ -36,6 +48,7 @@ nav{
 
     background: url(/Fotos/Layer_3.png) no-repeat scroll 0.5rem 0.5rem;
     padding-left:2rem;
+    outline: none;
     font-family: 'Montserrat';
     font-size: 1.125rem;
     width: 13.5rem;
@@ -69,7 +82,7 @@ nav{
     color: #FFFFFF;
 }
 
-.purple-box{
+.purple-section{
     
     height: 50vh;
     background-color: #9767A9;
@@ -80,7 +93,7 @@ nav{
     justify-content: space-between;
 }
 
-.tittle-purple-box{
+.tittle-purple-section{
     
     width: 55rem;
     text-align: left;
@@ -90,7 +103,7 @@ nav{
 
 }
 
-.text-purple-box{
+.text-purple-section{
 
     padding-top: 1rem;    
     width: 40.75rem;
@@ -98,4 +111,141 @@ nav{
     font: normal normal 100 1.5rem/1.9rem "Montserrat";
     letter-spacing: 0px;
     color: #FFFFFF;
+}
+
+.steps-box-1, .steps-box-2, .steps-box-3, .steps-box-4{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+}
+
+.box-1, .box-2, .box-3, .box-4, .box-5, .box-6, .box-7, .box-8{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 0.1rem;
+}
+
+.box-image-1, .box-image-2, .box-image-3, .box-image-4, .box-image-5, .box-image-6, .box-image-7 {
+
+    position: relative;
+    top: -6rem;
+    width: 98%;
+    height: 80vh;
+}
+
+.box-image-8{
+
+    position: relative;
+    top: -10rem;
+    width: 60%;
+
+}
+.box-image-2, .box-image-4, .box-image-6{
+    top: 12rem;
+}
+
+.box-image-3, .box-image-5, .box-image-7{
+    top: -12rem;
+}
+
+.purple-box-1,.purple-box-2, .purple-box-3, .purple-box-4, .purple-box-5, .purple-box-6, .purple-box-7{
+
+    position: relative;
+    top: -13rem;
+    width: 70%;
+    height: 100%;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: #9767A9;
+}
+
+.purple-box-2{
+    top: 1rem;
+}
+
+.purple-box-3, .purple-box-5,.purple-box-7{
+    top: -23rem;
+}
+
+.purple-box-4{
+    top: 10rem;
+}
+.purple-box-6{
+    top: 7rem;
+}
+
+.tittle-purple-box{
+    width: 90%;
+    text-align: start;
+    font: normal normal 900 2.2rem/3.5rem "Playfair Display";
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.text-purple-box{
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    width: 100%;
+    text-align: left;
+    font: normal normal 300 1.25rem/1.75rem "Montserrat";
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.photos-section{
+    position: relative;
+    top: -15rem;
+    height: 100%;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.group-photos-1, .group-photos-2, .group-photos-3, .group-photos-4, .group-photos-5{
+    height: 100vh;
+    width: 25%;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+div{
+    padding: 0.3rem;
+}
+
+footer{
+    height: 15vh;
+    background-color: #9767A9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.reference{
+    padding: 0.5rem;
+    width: 75%;
+    text-align: left;
+    font: normal normal medium 0.9rem/1.2rem "Montserrat";
+    color: #FFFFFF;
+    opacity: 1;
+
+}
+
+.button-previous-page{
+
+    background: url(/Fotos/Grupo%207.svg) no-repeat scroll 2.1rem 5rem;
+    
 }
